@@ -13,6 +13,9 @@
 		AB411CF5269F6CA0002A0F9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB411CF3269F6CA0002A0F9F /* Main.storyboard */; };
 		AB411CF7269F6CA3002A0F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB411CF6269F6CA3002A0F9F /* Assets.xcassets */; };
 		AB411CFA269F6CA3002A0F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB411CF8269F6CA3002A0F9F /* LaunchScreen.storyboard */; };
+		AB411D03269F6CF8002A0F9F /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB411D02269F6CF8002A0F9F /* Exercise.swift */; };
+		AB411D06269F6D45002A0F9F /* Jumping.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB411D05269F6D45002A0F9F /* Jumping.swift */; };
+		AB411D09269F6DAB002A0F9F /* Squarts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB411D08269F6DAB002A0F9F /* Squarts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		AB411CF6269F6CA3002A0F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB411CF9269F6CA3002A0F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB411CFB269F6CA3002A0F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB411D02269F6CF8002A0F9F /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		AB411D05269F6D45002A0F9F /* Jumping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jumping.swift; sourceTree = "<group>"; };
+		AB411D08269F6DAB002A0F9F /* Squarts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squarts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				AB411CED269F6CA0002A0F9F /* AppDelegate.swift */,
 				AB411CEF269F6CA0002A0F9F /* SceneDelegate.swift */,
 				AB411CF1269F6CA0002A0F9F /* ViewController.swift */,
+				AB411D05269F6D45002A0F9F /* Jumping.swift */,
+				AB411D08269F6DAB002A0F9F /* Squarts.swift */,
+				AB411D02269F6CF8002A0F9F /* Exercise.swift */,
 				AB411CF3269F6CA0002A0F9F /* Main.storyboard */,
 				AB411CF6269F6CA3002A0F9F /* Assets.xcassets */,
 				AB411CF8269F6CA3002A0F9F /* LaunchScreen.storyboard */,
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB411CF2269F6CA0002A0F9F /* ViewController.swift in Sources */,
+				AB411D09269F6DAB002A0F9F /* Squarts.swift in Sources */,
+				AB411D03269F6CF8002A0F9F /* Exercise.swift in Sources */,
 				AB411CEE269F6CA0002A0F9F /* AppDelegate.swift in Sources */,
+				AB411D06269F6D45002A0F9F /* Jumping.swift in Sources */,
 				AB411CF0269F6CA0002A0F9F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

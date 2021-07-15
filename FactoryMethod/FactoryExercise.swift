@@ -8,10 +8,19 @@
 import Foundation
 
 
-enum Exercise {
+enum Exercises {
     case jumping, squarts
 }
 
 class FactoryExercise {
     static let defaultFactory = FactoryExercise()
+    
+    func createExercise(name: Exercises) -> Exercise {
+        switch name {
+        case .jumping:
+            return Jumping()
+        case .squarts:
+            return Squarts()
+        }
+    }
 }
